@@ -1,0 +1,64 @@
+body {
+  font-family: Garamond;
+  background-color: #cfcbc8;
+}
+
+h1{
+  font-family: comic sans-serif;
+  text-align: center;
+}
+
+h5 {
+  margin-bottom: 0px;
+  margin-top: 12px;
+}
+
+.playlist-header{
+  text-align: center;
+}
+
+.form-item {
+    border: 5px solid white;
+    -webkit-box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+
+.input {
+  margin-right: 20px;
+  font-size: 14px;
+}
+ #playlist {
+   display: flex;
+   flex-wrap: wrap;
+   width: 1044px; 
+   margin: 0 auto;
+ }
+
+.cd-item {
+  background-image: url('../images/cd-case.jpg');
+  background-repeat: no-repeat;
+  height: 168px;
+  width: 261px;
+}
+
+.cd-description {
+  margin-left: 30px;
+  width: 150px;
+}
+
+.delete {
+  cursor: pointer;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 125px;
+}

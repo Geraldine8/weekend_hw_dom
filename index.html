@@ -1,0 +1,81 @@
+<!-- <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css "href="css/styles.css"/>
+  </head>
+  <body>
+    <form id="new-item-form">
+      <div id="wrapper">
+        <div class="form-item">
+          <label for="artist"  class="primary">Artist</label>
+          <input type="text" id="artist" required/>
+        </div>
+        <div class="form-item">
+          <label for="artist"  class="primary">Album</label>
+          <input type="text" id="album" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="genre" class="primary">Genre</label>
+          <select id="category">
+            <option value="" disabled selected></option>
+            <option value="Rock">Rock</option>
+            <option value="Pop">Pop</option>
+            <option value="Indie">Indie</option>
+            <option value="Electronic">Electronic</option>
+            <option value="Punk">Punk</option>
+            <option value="Jazz">Jazz</option>
+          </select>
+        </div>
+      </div>
+      <input type="submit" value="Save">
+    </form>
+    <button id="delete-all">Delete</button>
+    <h1>Play list</h1>
+    <div id="play-list">  </div>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css "href="css/styles.css"/>
+  </head>
+  <body>
+    <form id="new-item-form">
+      <div id="wrapper">
+        <div class="form-item">
+          <label for="artist"  class="primary">Artist</label>
+          <input class="input" type="text" id="artist" required/>
+          <label for="artist"  class="primary">Album</label>
+          <input class="input" type="text" id="album" required/>
+          <label for="genre" class="primary">Genre</label>
+          <select class="input" id="genre">
+            <option value="" disabled selected></option>
+            <option value="Rock">Rock</option>
+            <option value="Pop">Pop</option>
+            <option value="Indie">Indie</option>
+            <option value="Electronic">Electronic</option>
+            <option value="Punk">Punk</option>
+            <option value="Jazz">Jazz</option>
+          </select>
+          <input type="submit" value="Save">
+        </div>
+      </div>
+    </form>
+    <div class="playlist-header">
+      <h1>Playlist ⏯️</h1>
+      <button class="delete-all" id="delete-all">Delete all</button>
+    </div>
+
+    <div id="playlist">
+      <!-- <div class="cd-item"><a class="delete">⛔</a><div class="cd-description"><h3>Interpol</h3><h4>El Pintor</h4><h5>Rock 🎸</h5></div></div> -->
+    </div>
+  </body>
+</html>
